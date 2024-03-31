@@ -1,0 +1,13 @@
+Source: record mimic2db/a44542/a44542  Start: [22:36:21.944 01/02/2198]
+val has 5 rows (signals) and 7500 columns (samples/signal)
+Duration:     1:00
+Sampling frequency: 125 Hz  Sampling interval: 0.008 sec
+Row	Signal	Gain	Base	Units
+1	RESP	1023	0	pm
+2	PLETH	1023	0	?
+3	ECG II	512	255	mV
+4	ECG V	512	255	mV
+5	ECG AVR	510	256	mV
+
+To convert from raw units to the physical units shown
+above, subtract 'base' and divide by 'gain'.
